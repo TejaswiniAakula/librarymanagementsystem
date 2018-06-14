@@ -13,8 +13,7 @@ public class Fibonnaci {
 		for (int i = 0; i < fibSeries.length; i++) {
 			System.out.print(" " + fibSeries[i] + " ");
 		}
-		Long stopTimeForLoop = System.nanoTime();
-		System.out.println("");
+		Long stopTimeForLoop = System.nanoTime();		
 		System.out.println("");
 		System.out.println("For Loop Time:" + (stopTimeForLoop - startTimeForLoop));
 
