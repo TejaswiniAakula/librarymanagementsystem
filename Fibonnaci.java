@@ -10,9 +10,7 @@ public class Fibonnaci {
 		Long startTimeForLoop = System.nanoTime();
 		// returns the fib series
 		int fibSeries[] = fib(num);
-		for (int i = 0; i < fibSeries.length; i++) {
-			System.out.print(" " + fibSeries[i] + " ");
-		}
+		
 		Long stopTimeForLoop = System.nanoTime();		
 		System.out.println("");
 		System.out.println("For Loop Time:" + (stopTimeForLoop - startTimeForLoop));
@@ -22,9 +20,6 @@ public class Fibonnaci {
 		// uses recursion
 		int fibSeriesRec[] = fibByRec(num);
 
-		for (int i = 0; i < fibSeriesRec.length; i++) {
-			System.out.print(" " + fibSeriesRec[i] + " ");
-		}
 		Long stopTimeRecursion = System.nanoTime();
 		System.out.println("");
 		System.out.println("Recursion Time:" + (stopTimeRecursion - startTimeRecursion));
