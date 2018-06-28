@@ -19,8 +19,7 @@ public class Demo {
         // Closing Scanner after the use
         scan.close();
         
-        // Calculating product of two numbers
-        int product = num1*num2;
+        
         
     }
 }
