@@ -22,7 +22,6 @@ public class Demo {
         // Calculating product of two numbers
         int product = num1*num2;
         
-        // Displaying the multiplication result
-        System.out.println("Output: "+product);
+        
     }
 }
