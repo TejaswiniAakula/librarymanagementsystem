@@ -4,7 +4,8 @@ class StringToCharDemo
    {
       // Using charAt() method
       String str = "Hello";
-      
+      for(int i=0; i<str.length();i++){
+        char ch = str.charAt(i);
         
       } 
    }
